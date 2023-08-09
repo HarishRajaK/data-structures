@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+	int arr[10];
+	int i,j;
+	printf("Enter any 10 numbets:\n");
+	for(i=0;i<10;i++)
+		scanf("%d",&arr[i]);
+	for(j=0;j<10;j++){
+		if(arr[j]%2==0)
+			printf("%d is even!\n",arr[j]);
+		else
+			printf("%d is odd!\n",arr[j]);
+	}
+}
